@@ -1,19 +1,19 @@
-,district,transaction_type,land_shift_area,urban_land_use,main_use,main_building_material,complete_year,building_shift_total_area,num_room,num_hall,num_toilet,num_partition,management_org,total_ntd,unit_ntd,carpark_category,carpark_shift_area,carpark_ntd,transaction_year,transaction_month,building_age,number_of_land,number_of_building,number_of_carpark
-52,Beitou,Land,2246.29,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,135900000.0,60499.7573777206,Not Applicable,0.0,0,2019,10,2019.0,3,0,0
-493,Beitou,Premises (land + building),37.5,Agriculture,Resident,Strengthen brickwork,57.0,46.94,4,1,2,有,無,1408050.0,29996.804431188753,Not Applicable,0.0,0,2019,10,1962.0,1,1,0
-1185,Beitou,Land,314.04,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,8360000.0,26620.81263533308,Not Applicable,0.0,0,2019,11,2019.0,1,0,0
-1340,Beitou,Land,3082.0,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,102553550.0,33275.0,Not Applicable,0.0,0,2019,10,2019.0,1,0,0
-1510,Beitou,Land,343.73,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,13517400.0,39325.63349140313,Not Applicable,0.0,0,2019,11,2019.0,2,0,0
-1520,Beitou,Land,356.62,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,14023100.0,39322.247770736365,Not Applicable,0.0,0,2019,11,2019.0,3,0,0
-1569,Beitou,Land,3157.0,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,93580000.0,29642.065251821346,Not Applicable,0.0,0,2019,11,2019.0,1,0,0
-1953,Beitou,Land,990.38,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,26300000.0,26555.463559441832,Not Applicable,0.0,0,2019,11,2019.0,1,0,0
-2160,Beitou,Land,728.02,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,11011300.0,15124.996566028409,Not Applicable,0.0,0,2019,11,2019.0,1,0,0
-2782,Beitou,Land,47.42,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,1864200.0,39312.526360185584,Not Applicable,0.0,0,2019,11,2019.0,1,0,0
-3161,Beitou,Land,358.7,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,6550000.0,18260.384722609422,Not Applicable,0.0,0,2019,12,2019.0,1,0,0
-3555,Beitou,Land,523.83,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,18200000.0,34744.09636714201,Not Applicable,0.0,0,2019,10,2019.0,3,0,0
-3562,Beitou,Land,1164.52,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,50022000.0,42955.037268574175,Not Applicable,0.0,0,2019,10,2019.0,3,0,0
-3885,Beitou,Land,330.58,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,10000000.0,30249.86387561256,Not Applicable,0.0,0,2019,12,2019.0,1,0,0
-4119,Beitou,Land,2224.25,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,40370000.0,18149.938181409463,Not Applicable,0.0,0,2019,12,2019.0,1,0,0
-4591,Beitou,Land,82.17,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,3230500.0,39314.835097967625,Not Applicable,0.0,0,2020,1,2020.0,1,0,0
-5216,Nangang District,Land,1095.0,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,8000000.0,7305.936073059362,Not Applicable,0.0,0,2019,12,2019.0,2,0,0
-5356,Beitou,Land,82.75,Agriculture,See other registration items,Not Applicable,0.0,0.0,0,0,0,有,無,1700000.0,20543.80664652568,Not Applicable,0.0,0,2019,1,2019.0,1,0,0
+,Unnamed: 0,land_shift_area,main_building_material,complete_year,building_shift_total_area,num_room,num_hall,num_toilet,total_ntd,unit_ntd,carpark_shift_area,carpark_ntd,transaction_year,transaction_month,building_age,number_of_land,number_of_building,number_of_carpark,district_Beitou,district_Nangang District,transaction_type_Land,transaction_type_Premises (land + building),urban_land_use_Agriculture,main_use_Resident,main_use_See other registration items,num_partition_有,management_org_無,carpark_category_Not Applicable
+0,52,2246.29,0,0.0,0.0,0,0,0,135900000.0,60499.7573777206,0.0,0,2019,10,2019.0,3,0,0,1,0,1,0,1,0,1,1,1,1
+1,493,37.5,1,57.0,46.94,4,1,2,1408050.0,29996.804431188753,0.0,0,2019,10,1962.0,1,1,0,1,0,0,1,1,1,0,1,1,1
+2,1185,314.04,0,0.0,0.0,0,0,0,8360000.0,26620.81263533308,0.0,0,2019,11,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+3,1340,3082.0,0,0.0,0.0,0,0,0,102553550.0,33275.0,0.0,0,2019,10,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+4,1510,343.73,0,0.0,0.0,0,0,0,13517400.0,39325.63349140313,0.0,0,2019,11,2019.0,2,0,0,1,0,1,0,1,0,1,1,1,1
+5,1520,356.62,0,0.0,0.0,0,0,0,14023100.0,39322.247770736365,0.0,0,2019,11,2019.0,3,0,0,1,0,1,0,1,0,1,1,1,1
+6,1569,3157.0,0,0.0,0.0,0,0,0,93580000.0,29642.065251821343,0.0,0,2019,11,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+7,1953,990.38,0,0.0,0.0,0,0,0,26300000.0,26555.463559441832,0.0,0,2019,11,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+8,2160,728.02,0,0.0,0.0,0,0,0,11011300.0,15124.996566028409,0.0,0,2019,11,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+9,2782,47.42,0,0.0,0.0,0,0,0,1864200.0,39312.526360185584,0.0,0,2019,11,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+10,3161,358.7,0,0.0,0.0,0,0,0,6550000.0,18260.384722609422,0.0,0,2019,12,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+11,3555,523.83,0,0.0,0.0,0,0,0,18200000.0,34744.09636714201,0.0,0,2019,10,2019.0,3,0,0,1,0,1,0,1,0,1,1,1,1
+12,3562,1164.52,0,0.0,0.0,0,0,0,50022000.0,42955.037268574175,0.0,0,2019,10,2019.0,3,0,0,1,0,1,0,1,0,1,1,1,1
+13,3885,330.58,0,0.0,0.0,0,0,0,10000000.0,30249.863875612562,0.0,0,2019,12,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+14,4119,2224.25,0,0.0,0.0,0,0,0,40370000.0,18149.938181409463,0.0,0,2019,12,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+15,4591,82.17,0,0.0,0.0,0,0,0,3230500.0,39314.835097967625,0.0,0,2020,1,2020.0,1,0,0,1,0,1,0,1,0,1,1,1,1
+16,5216,1095.0,0,0.0,0.0,0,0,0,8000000.0,7305.936073059362,0.0,0,2019,12,2019.0,2,0,0,0,1,1,0,1,0,1,1,1,1
+17,5356,82.75,0,0.0,0.0,0,0,0,1700000.0,20543.80664652568,0.0,0,2019,1,2019.0,1,0,0,1,0,1,0,1,0,1,1,1,1

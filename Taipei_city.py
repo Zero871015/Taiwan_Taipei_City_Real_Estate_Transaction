@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.preprocessing import OneHotEncoder
 import numpy as np
 
 Data = pd.read_csv("./taipei_city_real_estate_transaction_v2.csv")
