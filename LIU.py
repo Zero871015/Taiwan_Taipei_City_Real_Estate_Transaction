@@ -1,3 +1,4 @@
+# encoding: utf-8
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 #import numpy as np
@@ -42,17 +43,17 @@ for i in range(len(Data)):
 
 #temp.to_csv('One.csv',encoding='utf8')
 
-
+# Classification data by "urban_land_use" and discard(throw away) "Other" & "Others"
 Data1 = Data[Data['urban_land_use'].isin(['work'])]
-Data2 = Data[Data['urban_land_use'].isin(['quotient'])]
-Data3 = Data[Data['urban_land_use'].isin(['address'])]
+Data2 = Data[Data['urban_land_use'].isin(['Quotient'])]
+Data3 = Data[Data['urban_land_use'].isin(['Address'])]
 Data4 = Data[Data['urban_land_use'].isin(['Agriculture'])]
 
-# 產生 CSV
+# Generate CSV
 Data1.to_csv('work.csv',encoding='utf8') 
-Data2.to_csv('quotient.csv',encoding='utf8') 
-Data3.to_csv('address.csv',encoding='utf8') 
-Data4.to_csv('agriculture.csv',encoding='utf8') 
+Data2.to_csv('Quotient.csv',encoding='utf8') 
+Data3.to_csv('Address.csv',encoding='utf8') 
+Data4.to_csv('Agriculture.csv',encoding='utf8') 
 
 
 #district
