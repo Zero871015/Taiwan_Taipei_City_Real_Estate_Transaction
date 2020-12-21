@@ -42,7 +42,7 @@ for i in range(len(Data)):
 
 
 #temp.to_csv('One.csv',encoding='utf8')
-
+'''
 # Classification data by "urban_land_use" and discard(throw away) "Other" & "Others"
 Data1 = Data[Data['urban_land_use'].isin(['work'])]
 Data2 = Data[Data['urban_land_use'].isin(['Quotient'])]
@@ -61,4 +61,6 @@ Data4.to_csv('Agriculture.csv',encoding='utf8')
 #main_use
 #main_building_material
 #carpark_category
-
+'''
+Data.to_csv('allData.csv', encoding = 'utf8')
+print('OK')
