@@ -41,6 +41,7 @@ for i in range(len(Data)):
         Data.loc[i, 'management_org'] = 0
 
 
+
 #temp.to_csv('One.csv',encoding='utf8')
 '''
 # Classification data by "urban_land_use" and discard(throw away) "Other" & "Others"
