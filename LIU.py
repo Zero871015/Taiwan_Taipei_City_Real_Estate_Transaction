@@ -10,6 +10,10 @@ temp = pd.get_dummies(Data.urban_land_use)
 Data = Data.merge(temp, left_index=True, right_index=True) 
 #Data = Data.join(temp)
 
+temp = pd.get_dummies(Data.district)
+#temp = pd.concat([Data,temp])
+Data = Data.merge(temp, left_index=True, right_index=True) 
+
 temp = pd.get_dummies(Data.carpark_category)
 #Data = Data.join(temp)
 Data = Data.merge(temp, left_index=True, right_index=True) 
@@ -18,17 +22,17 @@ temp = pd.get_dummies(Data.main_building_material)
 #Data = pd.merge([Data,temp])
 Data = Data.merge(temp, left_index=True, right_index=True) 
 
-#temp = pd.get_dummies(Data.main_use)
+temp = pd.get_dummies(Data.main_use)
 #Data = Data.join(temp)
 #Data = pd.concat([Data,temp])
-#Data = Data.merge(temp, left_index=True, right_index=True) 
+Data = Data.merge(temp, left_index=True, right_index=True) 
 
 temp = pd.get_dummies(Data.transaction_type)
 #temp = Data.join(temp)
 #temp = pd.concat([Data,temp])
 Data = Data.merge(temp, left_index=True, right_index=True) 
 
-Data = Data.drop(['urban_land_use','transaction_type','main_use','main_building_material','carpark_category','number_of_land','unit_ntd','building_age'],axis=1)
+Data = Data.drop(['district','urban_land_use','transaction_type','main_use','main_building_material','carpark_category','number_of_land','unit_ntd','building_age'],axis=1)
 
 #temp = temp.drop(['district'], axis=1)
 
@@ -65,6 +69,5 @@ Data4.to_csv('Agriculture.csv',encoding='utf8')
 #main_building_material
 #carpark_category
 '''
-Data.to_csv('allData.csv', encoding = 'utf8')
 Data.to_csv('allData.csv', encoding = 'utf8')
 print('OK')
