@@ -1,0 +1,1 @@
+Kmeans => 把polygon map 2 vector 空間 （主要問題）
